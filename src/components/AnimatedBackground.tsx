@@ -94,6 +94,16 @@ export default function AnimatedBackground() {
             "radial-gradient(60% 40% at 50% 90%, rgba(34,197,94,0.12), transparent 60%)",
         }}
       />
+
+      {/* Decorative grid overlay */}
+      <div
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px)",
+          backgroundSize: "40px 40px, 40px 40px",
+        }}
+      />
     </div>
   );
 }
