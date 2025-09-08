@@ -19,7 +19,7 @@ function App() {
             </Link>
             <nav className="text-sm text-slate-300">
               <a
-                href="https://github.com/"
+                href="https://github.com/Humam-Saf"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-white transition-colors"
@@ -43,7 +43,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              Crafted with ✨ animations to inspire your tech journey.
+              Created By <a href="https://humam-safi.vercel.app/" className="font-bold text-[20px]">Humam Safi</a>
             </motion.p>
           </div>
         </footer>
